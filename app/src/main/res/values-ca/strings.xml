@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pt03_Vizcaino_Pau</string>
+    <string name="titleText">Comptador de cicles de vida</string>
+    <string name="destroyButton">Drestruir</string>
+</resources>

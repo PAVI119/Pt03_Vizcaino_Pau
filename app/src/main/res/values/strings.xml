@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Pt03_Vizcaino_Pau</string>
+    <string name="titleText">Life cycle counter</string>
+    <string name="onCreate" translatable="false">onCreate()</string>
+    <string name="onStart" translatable="false">onStart()</string>
+    <string name="onRestart" translatable="false">onRestart()</string>
+    <string name="onResume" translatable="false">onResume()</string>
+    <string name="onPause" translatable="false">onPause()</string>
+    <string name="onStop" translatable="false">onStop()</string>
+    <string name="onDestroy" translatable="false">onDestroy()</string>
+    <string name="destroyButton">Destroy</string>
+    <string name="defaultValue" translatable="false">0</string>
+</resources>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="81dp"
+        android:autoSizeTextType="uniform"
+        android:background="@color/md_theme_light_primary"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="10sp"
+        android:text="@string/titleText"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <LinearLayout
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="44dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="167dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/onCreate"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:text="@string/onCreate"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/onStart"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:text="@string/onStart"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/onRestart"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:text="@string/onRestart"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/onResume"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:text="@string/onResume"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/onPause"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:text="@string/onPause"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/onStop"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:text="@string/onStop"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/onDestroy"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:text="@string/onDestroy"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/onCreateCount"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:text="@string/defaultValue"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/onStartCount"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:text="@string/defaultValue"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/onRestartCount"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:text="@string/defaultValue"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/onResumeCount"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:text="@string/defaultValue"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/onPauseCount"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:text="@string/defaultValue"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/onStopCount"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:text="@string/defaultValue"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/onDestroyCount"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:text="@string/defaultValue"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/destroyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="138dp"
+        android:layout_marginTop="627dp"
+        android:layout_marginEnd="138dp"
+        android:layout_marginBottom="51dp"
+        android:text="@string/destroyButton"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
